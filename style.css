@@ -91,7 +91,7 @@ a.button {
   font-weight: bold;
 }
 
-section.about {
+section#about {
   max-width: 940px;
   margin: 0 auto;
   display: grid;
@@ -124,7 +124,7 @@ section.about {
   font-weight: bold;
 }
 
-section.contagio {
+section#contagio {
   max-width: 1005px;
   margin: 0 auto;
   background-color: white;
@@ -162,14 +162,40 @@ section.contagio {
   text-align: center;
   color: #035755;
   margin-bottom: 8px;
+  font-size: 20px;
 }
 
 .card .image-card p {
   text-align: center;
   color: #707070;
+  margin-bottom: 100px;
 }
 
 .image-card.card-contato img {
   padding: 20px;
   margin-top: 2px;
+}
+
+section#sintomas {
+  max-width: 1005px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.sintomas-text h1 {
+  color: #035755;
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.sintomas-text p {
+  color: #707070;
+  text-align: center;
+}
+
+.sintomas-img img {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0px 130px;
 }
