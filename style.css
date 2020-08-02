@@ -7,10 +7,11 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #dfdfdf;
 }
 
 header {
-  background-color: #aaa;
+  background-color: rgb(207, 207, 207);
   width: 100%;
   padding: 8px;
   box-sizing: border-box;
@@ -53,6 +54,9 @@ a.button {
   grid-template-columns: 1fr 1fr;
   padding: 32px;
   align-items: center;
+  background-color: white;
+  margin-top: 16px;
+  border-radius: 8px 8px 0px 0px;
 }
 
 .banner-img img {
@@ -85,4 +89,87 @@ a.button {
   border-radius: 8px;
   font-size: 16px;
   font-weight: bold;
+}
+
+section.about {
+  max-width: 940px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 32px;
+  align-items: center;
+  background-color: white;
+}
+
+.img-about img {
+  width: 600px;
+  height: 400px;
+}
+
+.about-text h1 {
+  color: #035755;
+}
+
+.about-text p {
+  font-size: 12px;
+  color: #707070;
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+
+.about-text a {
+  text-decoration: none;
+  color: #fa5652;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+section.contagio {
+  max-width: 1005px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.contagio-text h1 {
+  color: #035755;
+  text-align: center;
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.contagio-text p {
+  color: #707070;
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.card .image-card img {
+  width: 200px;
+  width: 200px;
+  padding: 16px;
+  margin-top: 32px;
+  align-content: center;
+  margin-left: 40px;
+}
+
+.card .image-card h1 {
+  text-align: center;
+  color: #035755;
+  margin-bottom: 8px;
+}
+
+.card .image-card p {
+  text-align: center;
+  color: #707070;
+}
+
+.image-card.card-contato img {
+  padding: 20px;
+  margin-top: 2px;
 }
