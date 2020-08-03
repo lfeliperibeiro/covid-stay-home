@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: rgb(207, 207, 207);
+  background-color: #cfcfcf;
   width: 100%;
   padding: 8px;
   box-sizing: border-box;
@@ -198,4 +198,98 @@ section#sintomas {
   max-width: 700px;
   margin: 0 auto;
   padding: 0px 130px;
+  margin-bottom: 100px;
+}
+
+section#prevencao {
+  max-width: 1005px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.prevencao-title h1 {
+  font-size: 32px;
+  color: #035755;
+  text-align: center;
+}
+
+.prevencao-title p {
+  color: #707070;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.prevencao-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  align-items: center;
+  padding: 50px;
+  position: relative;
+}
+
+.prevencao-text h1 {
+  color: #035755;
+}
+
+.prevencao-text p {
+  color: #707070;
+}
+.prevencao-cards span img {
+  width: 50px;
+  position: absolute;
+  left: 240px;
+  top: 160px;
+}
+
+.prevencao-cards img {
+  width: 300px;
+  padding-right: 80px;
+}
+
+/* números */
+
+.dois {
+  width: 50px;
+  position: absolute;
+  left: 250px;
+  top: -3px;
+  margin: 0;
+}
+.prevencao-img-2 img {
+  margin-left: 100px;
+}
+
+.prevencao-text-2 span {
+  margin-right: 380px;
+}
+
+.prevencao-text-2 h1 {
+  color: #035755;
+}
+
+.prevencao-text-2 p {
+  color: #707070;
+}
+
+.tres {
+  width: 50px;
+  position: absolute;
+  left: 5px;
+  top: -35px;
+}
+
+footer {
+  background-color: #cfcfcf;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+span.red {
+  color: #fa5652;
+  font-size: 20px;
 }
