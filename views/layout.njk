@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Covid | Stay Home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <div class="logo">
+         <a href="/"><img src="./assets/Logo.svg" alt="covid19" /></a> 
+        </div>
+        <div class="link">
+          <a href="/visaogeral">Visão Geral</a>
+          <a href="/contagio">Contágio</a>
+          <a href="/sintomas">Sintomas</a>
+          <a href="/prevencao">Prevenção</a>
+          <a href="#">Números</a>
+          <a class="button" href="#">Contato</a>
+        </div>
+      </div>
+    </header>
+
+    {% block content %}
+    {% endblock content %}
+    
+
+    <footer> Covid | Stay Home 2020 com <span class="red"> &#10084;</span> por Felipe Ribeiro</footer>
+  </body>
+</html>

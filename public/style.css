@@ -55,8 +55,8 @@ a.button {
   padding: 32px;
   align-items: center;
   background-color: white;
-  margin-top: 16px;
-  border-radius: 8px 8px 0px 0px;
+  margin-top: 30px;
+  border-radius: 6px;
 }
 
 .banner-img img {
@@ -99,6 +99,8 @@ section#about {
   padding: 32px;
   align-items: center;
   background-color: white;
+  margin-top: 30px;
+  border-radius: 6px;
 }
 
 .img-about img {
@@ -128,6 +130,8 @@ section#contagio {
   max-width: 1005px;
   margin: 0 auto;
   background-color: white;
+  border-radius: 5px;
+  margin-top: 30px;
 }
 
 .contagio-text h1 {
@@ -136,6 +140,7 @@ section#contagio {
   margin-bottom: 6px;
   font-weight: bold;
   font-size: 32px;
+  padding-top: 20px;
 }
 
 .contagio-text p {
@@ -180,6 +185,8 @@ section#sintomas {
   max-width: 1005px;
   margin: 0 auto;
   background-color: white;
+  border-radius: 6px;
+  margin-top: 30px;
 }
 
 .sintomas-text h1 {
@@ -187,6 +194,7 @@ section#sintomas {
   font-size: 32px;
   line-height: 42px;
   text-align: center;
+  padding-top: 20px;
 }
 
 .sintomas-text p {
@@ -205,18 +213,22 @@ section#prevencao {
   max-width: 1005px;
   margin: 0 auto;
   background-color: white;
+  border-radius: 6px;
+  margin-top: 30px;
 }
 
 .prevencao-title h1 {
   font-size: 32px;
   color: #035755;
   text-align: center;
+  padding-top: 20px;
+  
 }
 
 .prevencao-title p {
   color: #707070;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 6px;
 }
 
 .prevencao-cards {
@@ -286,10 +298,10 @@ footer {
   box-sizing: border-box;
   text-align: center;
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 span.red {
   color: #fa5652;
-  font-size: 20px;
+  font-size: 30px;
 }
